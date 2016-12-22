@@ -1,0 +1,28 @@
+[
+  {
+    "text": "Menu Heading",
+    "heading": "true",
+    "translate": "sidebar.heading.HEADER"
+  },
+  {
+    "text": "Dashboard",
+    "sref": "app.singleview",
+    "icon": "fa fa-file-o"
+  },
+  {
+    "text": "Log Room",
+    "sref": "app.plusplus",
+    "icon": "fa fa-file-o"
+  },
+  {
+    "text": "FAQ",
+    "sref": "#",
+    "icon": "icon-folder",
+    "submenu": [
+      { "text": "Workflow", 
+        "sref": "app.submenu"
+      }
+    ],
+    "translate": "sidebar.nav.menu.MENU"
+  }
+]
